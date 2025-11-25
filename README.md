@@ -232,7 +232,12 @@ The following table summarizes the timing analysis after Clock Tree Synthesis (C
 | **ss_n40C_1v60** | -6.96 | -1195.05 | -6.96 | 0.68 | **FAIL** |
 | **ss_n40C_1v76** | -1.92 | -109.97 | -1.92 | 0.51 | **FAIL** |
 
+
 **Legend:**
 * **WNS (Max):** Worst Negative Slack (Setup Time) - *Negative values indicate violations.*
 * **TNS (Max):** Total Negative Slack - *Sum of all setup violations.*
 * **Worst Slack (Min):** Hold Time - *Positive values indicate successful hold timing.*
+
+
+#post synthesis vs post cts
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/ef0c6be1-d3ae-4cf4-9b88-ffc1d88393f4" />
