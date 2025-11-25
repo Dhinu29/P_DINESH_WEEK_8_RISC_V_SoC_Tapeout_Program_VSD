@@ -202,6 +202,11 @@ The following table summarizes the timing analysis across different Process, Vol
 * **WNS (Max):** Worst Negative Slack (Setup Time)
 * **TNS (Max):** Total Negative Slack
 * **Worst Slack (Min):** Hold Time
+* 
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/ce9590ca-b312-4b91-af73-95cfa7e880c4" />
+<img width="1189" height="590" alt="image" src="https://github.com/user-attachments/assets/6740e07d-c82a-42c3-95cb-df196249594a" />
+<img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/2cf034bb-937d-46a8-bc01-74464f5709d6" />
+<img width="1190" height="590" alt="download" src="https://github.com/user-attachments/assets/28b6976c-51e5-4e17-917a-8b3bf4dbc1a4" />
 
 
 ## Post-CTS Static Timing Analysis (STA) Results
