@@ -1,4 +1,4 @@
-# P_DINESH_WEEK_8_RISC_V_SoC_Tapeout_Program_VSD
+<img width="1389" height="690" alt="download" src="https://github.com/user-attachments/assets/84bdfd1f-08a8-413a-8aea-935776ef4412" /># P_DINESH_WEEK_8_RISC_V_SoC_Tapeout_Program_VSD
 ## Week 8 Task – Post-Layout STA & Timing Graphs Across PVT Corners for Routed VSDBabySoC
 
 #Objective
@@ -232,6 +232,13 @@ The following table summarizes the timing analysis after Clock Tree Synthesis (C
 | **ss_n40C_1v60** | -6.96 | -1195.05 | -6.96 | 0.68 | **FAIL** |
 | **ss_n40C_1v76** | -1.92 | -109.97 | -1.92 | 0.51 | **FAIL** |
 
+<img width="1389" height="690" alt="download" src="https://github.com/user-attachments/assets/88694cff-c10a-47d1-88c0-dc754c403024" />
+<img width="1389" height="690" alt="download" src="https://github.com/user-attachments/assets/a152d6b5-5d9a-487a-a5f8-a6684076a8e2" />
+<img width="1389" height="690" alt="download" src="https://github.com/user-attachments/assets/6986e87c-e9f9-470a-bc89-97d8b9f4155d" />
+<img width="1389" height="690" alt="download" src="https://github.com/user-attachments/assets/fbff6a78-a6e3-4937-bca1-fe71da3f6edd" />
+
+
+
 
 **Legend:**
 * **WNS (Max):** Worst Negative Slack (Setup Time) - *Negative values indicate violations.*
@@ -239,5 +246,5 @@ The following table summarizes the timing analysis after Clock Tree Synthesis (C
 * **Worst Slack (Min):** Hold Time - *Positive values indicate successful hold timing.*
 
 
-#post synthesis vs post cts
+# post synthesis vs post cts
 <img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/ef0c6be1-d3ae-4cf4-9b88-ffc1d88393f4" />
