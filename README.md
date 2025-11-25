@@ -174,3 +174,31 @@ exit
 
 
 ```
+
+## Post-Synthesis Static Timing Analysis (STA) Results
+
+The following table summarizes the timing analysis across different Process, Voltage, and Temperature (PVT) corners.
+
+| Library Corner (sky130_fd_sc_hd) | WNS (Max) | TNS (Max) | Worst Slack (Max) | Worst Slack (Min) | Status |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **tt_025C_1v80** | 0.00 | 0.00 | 3.17 | 0.32 | PASS |
+| **tt_100C_1v80** | 0.00 | 0.00 | 3.22 | 0.32 | PASS |
+| **ff_100C_1v65** | 0.00 | 0.00 | 5.24 | 0.25 | PASS |
+| **ff_100C_1v95** | 0.00 | 0.00 | 6.50 | 0.20 | PASS |
+| **ff_n40C_1v56** | 0.00 | 0.00 | 3.89 | 0.29 | PASS |
+| **ff_n40C_1v65** | 0.00 | 0.00 | 4.81 | 0.26 | PASS |
+| **ff_n40C_1v76** | 0.00 | 0.00 | 5.63 | 0.23 | PASS |
+| **ff_n40C_1v95** | 0.00 | 0.00 | 6.56 | 0.19 | PASS |
+| **ss_100C_1v40** | -13.11 | -2847.00 | -13.11 | 0.92 | **FAIL** |
+| **ss_100C_1v60** | -5.36 | -786.55 | -5.36 | 0.65 | **FAIL** |
+| **ss_n40C_1v28** | -48.72 | -14854.05 | -48.72 | 1.92 | **FAIL** |
+| **ss_n40C_1v35** | -29.98 | -8542.96 | -29.98 | 1.41 | **FAIL** |
+| **ss_n40C_1v40** | -22.19 | -5933.80 | -22.19 | 1.17 | **FAIL** |
+| **ss_n40C_1v44** | -17.61 | -4419.96 | -17.61 | 1.03 | **FAIL** |
+| **ss_n40C_1v60** | -6.96 | -1195.05 | -6.96 | 0.68 | **FAIL** |
+| **ss_n40C_1v76** | -1.92 | -109.97 | -1.92 | 0.51 | **FAIL** |
+
+**Legend:**
+* **WNS (Max):** Worst Negative Slack (Setup Time)
+* **TNS (Max):** Total Negative Slack
+* **Worst Slack (Min):** Hold Time
